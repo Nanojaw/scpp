@@ -1,4 +1,4 @@
-workspace {
+workspace "scpp"
     architecture "x86_64"
     startproject "app"
 
@@ -8,10 +8,9 @@ workspace {
         "Dist"
     }
 
-    solutionitems {
+    files {
 		".editorconfig"
 	}
-}
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
